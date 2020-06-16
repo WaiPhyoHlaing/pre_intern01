@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var counter = 0;
+            function count(){
+                counter++;
+                document.querySelector('.counter').innerHTML=counter;
+               console.log(counter);
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="counter">0</h1>
+        <button onclick="count()">Count me!</button>
+    </body>
+    </html>
