@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pre_Intern Web Page</title>
+         <script>
+            document.addEventListener('change',()=>{
+              var txt=  document.querySelector('#select').value;
+               document.querySelector('h1').style.color=txt;
+                  });
+        </script>
+    </head>
+    <body>
+         <h1>Hello!Welcome to Our PreIntern Group.</h1>
+           <select id="select">
+               <option  class="choose" value="red">Red</option>
+               <option  class="choose" value="black">Black</option>
+               <option  class="choose" value="blue">Blue</option>
+               <option  class="choose" value="green">Green</option>
+            </select>
+       </body>
+</html>
